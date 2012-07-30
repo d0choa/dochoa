@@ -94,6 +94,10 @@ body {
 p { margin-bottom: 25px; }
 p.intro { font-size: 18px; }
 
+.twtr-hd, .twtr-ft{
+	text-shadow: none;
+}
+
 /* links */
 a:link, a:visited {
     color: #285935;
@@ -213,8 +217,11 @@ header {
 }
 .content-wrap section {
     position: relative;
-    padding: 125px 0 25px 0;
+    padding: 50px 0 15px 0;
     background: url(../images/section-sep.png) repeat-x left 25px;
+}
+#main{
+	padding: 125px 0 15px 0;
 }
 .content-wrap section section {
     background: none;
@@ -254,28 +261,53 @@ header {
     margin: 12.5px 0 12.5px 0;
 }
 
-.content-wrap section aside ul.link-list {
+section#contact .row .col ul.link-list {
     font-size: 16px;
     margin: 0 0 25px 0;
     padding: 0;
     list-style: none;
     background: url(../images/section-sep.png) repeat-x left top;
 }
-.content-wrap section aside ul.link-list li {
+section#contact .row .col ul.link-list li {
     background: url(../images/section-sep.png) repeat-x left bottom;
     padding-left: 3px;
 }
-.content-wrap section aside ul.link-list li a {
+.section#contact .row .col ul.link-list li a {
     display: block;
     color: #3B3B3B;
     padding-top: 12.5px;
     padding-bottom: 12.5px;
 }
-.content-wrap section aside ul.link-list li a:hover,
-.content-wrap section aside ul.link-list li a:focus,
-.content-wrap section aside ul.link-list li a:active {
+section#contact .row .col ul.link-list li a:hover,
+section#contact .row .col ul.link-list li a:focus,
+section#contact .row .col ul.link-list li a:active {
     color: #285935;
 }
+
+section#contact .row .col ul.link-list {
+    font-size: 16px;
+    margin: 0 0 25px 0;
+    padding: 0;
+    list-style: none;
+    background: url(../images/section-sep.png) repeat-x left top;
+}
+section#contact .row .col ul.link-list li {
+    background: url(../images/section-sep.png) repeat-x left bottom;
+    padding-left: 3px;
+}
+section#contact .row .col ul.link-list li a {
+    display: block;
+    color: #3B3B3B;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+section#contact .row .col ul.link-list li a:hover,
+section#contact .row .col ul.link-list li a:focus,
+section#contact .row .col ul.link-list li a:active {
+    color: #285935;
+}
+
+
 .content-wrap section aside .testimonials {
     margin: 0 0 25px 0;
 }
@@ -326,10 +358,10 @@ footer {
 header hgroup {
     position: absolute;
     background: url(../images/logo.png) no-repeat;
-    height: 31px;
-    width: 312px;
+    height: 45px;
+    width: 429px;
     display: block;
-    top: 25px;
+    top: 17px;
     left: 0;
 }
 header hgroup h1 a {
@@ -664,28 +696,28 @@ section#contact .primary form input.button {
 	width: 475px;
 }
 
-section#contact aside .social li a {
+section#contact .row .col .social li a {
     padding-left: 35px;
 }
-section#contact aside .social li.facebook a {
+section#contact .row .col .social li.facebook a {
     background: url(../images/social/facebook.png) no-repeat left 11px;
 }
-section#contact aside .social li.googleplus a {
+section#contact .row .col .social li.googleplus a {
     background: url(../images/social/googleplus.png) no-repeat left 11px;
 }
-section#contact aside .social li.twitter a {
+section#contact .row .col .social li.twitter a {
     background: url(../images/social/twitter.png) no-repeat left 11px;
 }
-section#contact aside .social li.dribble a {
+section#contact .row .col .social li.dribble a {
     background: url(../images/social/dribble.png) no-repeat left 11px;
 }
-section#contact aside .social li.linkedin a {
+section#contact .row .col .social li.linkedin a {
     background: url(../images/social/linkedin.png) no-repeat left 11px;
 }
-section#contact aside .social li.delicious a {
+section#contact .row .col .social li.delicious a {
     background: url(../images/social/delicious.png) no-repeat left 11px;
 }
-section#contact aside .social li.flickr a {
+section#contact .row .col .social li.flickr a {
     background: url(../images/social/flickr.png) no-repeat left 11px;
 }
 
