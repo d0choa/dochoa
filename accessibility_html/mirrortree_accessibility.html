@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link href="../CSBG.css" rel="stylesheet" type="text/css">
+		<meta name="keywords" content="mirrortree accessibility prediction David Ochoa csbg mirrortree">
+		<title>Incorporating information on predicted solvent accessibility to the co-evolution-based study of protein interactions - Computational Systems Biology Group </title>
+	</head>
+	
+<body bgcolor="#FFFFFF"  onLoad="parent.BGPmain.location='home.html'">
+
+<!--ESCRIBE AQUÃ EL CONTENIDO -->
+
+<p class="sectionP">Incorporating information on predicted solvent accessibility to the co-evolution-based study of protein interactions </p>
+
+
+<a href="Figure1.png"><img src="Figure1.png" align="right" width="350px"></a>
+
+<p>The <a href="http://pdg.cnb.csic.es/pazos/mirrortree/"><i>mirrortree</i></a> and related methodologies have been widely used to infer protein-protein interactions and other functional relationships from phyogenetic trees. These methods, assume that related proteins evolve in a coordinated fashion printing this signal in the topology and distances of their phylogenetic trees. Although some authors revealed how do the residue filtering based on structural features can help the global performance, the applicability of these techniques to genome-wide analysis is not feasible due to the lack of experimental 3D structures.</p>
+
+<p>To address these limitations, we benchmarked the impact of restricting <em>mirrortree</em>-like analysis to the residues predicted as accessible. In order to do that, we predicted solvent accessibility for each <em>E. coli</em> protein using multiple sequence aligments containing other homolog sequences. This information was then considered to filter the alignments of orthologs used to build the trees (See Figure). The filtering was based on different criteria trying to enrich the alignments in exposed residues that could be candidate of playing relevant roles in interaction. The global performance of this sets was evaluated using 3 different methods: MirrorTree (MT), Profile Correlation (PC) and ContextMirror (CM); and 3 different kind of interactions: binary physical, co-presence in macromolecular complexes and co-membership in the same metabolic pathway.</p>	
+
+<p>We found that the performance of the context-based methodologies (PC and CM) is increased when we use predicted accessibility in detecting binary physical interactions. Moreover, the methods showed better performance if the multiple sequence aligments necessary to predict accessibility are created for this purpose, instead of that based in orthologs only. Examples illustrating the effect of incorporating predicted accessibility are present in the paper.</p>
+
+<p>The general conclusion is that the predicted accessitility only helps prediction of protein interacion under some circumstances. The accurate context-based methods predicting binary physical interactions is the ideal case to think about excluding not-accessible predicted regions. That improvement comes at no cost in terms of applicability since accessibility can be predicted for any sequence.</p> 
+
+<p class="sectionP">More information and links</p>
+
+<li>
+David Ochoa, Ponciano García-Gutiérrez, David Juan, Valencia, A. and Florencio Pazos (2013).
+Incorporating information on predicted solvent accessibility to the co-evolution-based study of protein interactions.
+<i>Molecular bioSystems.</i>
+<b>9:</b>70-76.
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23104128">[PubMed:23104128]</a>
+<a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&id=23104128&retmode=ref&cmd=prlinks">[HTML]</a>
+<a href="http://pubs.rsc.org/en/content/articlepdf/2013/mb/c2mb25325a">[PDF]</a>
+
+<li><a href="http://pdg.cnb.uam.es/pazos/mirrortree/"><i>Mirrortree</i> and related programs</a>
+<li><a href="http://csbg.cnb.csic.es/mtserver/"><i>Mirrortree</a></i> web server</a>
+
+
+</li>
+
+
+
+<!--FIN DEL CONTENIDO -->
+<center><hr>
+			<p class="footText">
+				&copy; 2012, Computational Systems Biology Group. CNB-CSIC
+			</p>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1021511-1";
+urchinTracker();
+</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1063282-1";
+urchinTracker();
+</script>
+
+</body>
+</html>
