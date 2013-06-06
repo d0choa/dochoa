@@ -84,7 +84,7 @@ table {
 html { overflow-y: scroll; }
 body {
     font-family: Georgia, Serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     color: #3B3B3B;
     background: /* url(../images/25-pixel-baseline.png) left top repeat, */ url(../images/bg.png) left top repeat ;
@@ -92,7 +92,7 @@ body {
 }
 
 p { margin-bottom: 25px; }
-p.intro { font-size: 18px; }
+p.intro { font-size: 16px; }
 
 .twtr-hd, .twtr-ft{
 	text-shadow: none;
@@ -113,20 +113,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'MerriweatherBold', Serif;
 }
 h1 {
-    font-size: 32px;
+    font-size: 22px;
     line-height: 50px;
     letter-spacing: -0.9px;
     color: #046416;
     margin-left: -2px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 h3 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
 }
 
@@ -153,7 +153,7 @@ blockquote {
     padding-right: 30px;
     background: url(../images/quote.png) no-repeat 3px 0;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: italic;
 }
 input, select {
@@ -263,7 +263,7 @@ header {
 }
 
 section#contact .row .col ul.link-list {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 25px 0;
     padding: 0;
     list-style: none;
@@ -286,7 +286,7 @@ section#contact .row .col ul.link-list li a:active {
 }
 
 section#contact .row .col ul.link-list {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 25px 0;
     padding: 0;
     list-style: none;
@@ -314,7 +314,7 @@ section#contact .row .col ul.link-list li a:active {
 }
 .content-wrap section aside .testimonials blockquote {
     font-style: italic;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 27px;
     background: url(../images/quote-open.png) no-repeat left 5px;
     margin: 12.5px 0;
@@ -325,7 +325,7 @@ section#contact .row .col ul.link-list li a:active {
 .content-wrap section aside .testimonials blockquote cite {
     font-style: normal;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .content-wrap section .back-to-top {
@@ -492,7 +492,7 @@ section#main .row .col h2 {
     /* font-family: Helvetica, Arial, sans-serif; */
     padding: 5px 10px;
     width: 363px;
-    font-size: 12px;
+    font-size: 10px;
     text-shadow: none;
     text-align: center;
 }
@@ -549,7 +549,7 @@ section#portfolio ul.folio-list li .thumb img {
     margin-left: 18px;
 }
 section#portfolio ul.folio-list li h3.entry-title {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
     margin-left: 16px;
 }
@@ -593,7 +593,7 @@ section#about-us .primary ul.the-team li .thumbnail img {
     left: 18px;
 }
 section#about-us .primary ul.the-team li p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     margin: 5px 0 0 0;
 }
@@ -616,7 +616,7 @@ section#about-us aside .download-btn {
     line-height: 55px;
 
     font-family: "MerriweatherBold", Georgia, Serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 
@@ -636,13 +636,13 @@ section#contact .primary form {
 }
 section#contact .primary form p {
 	font-family: "MerriweatherBold", Serif;
-    font-size: 14.5px;
+    font-size: 12.5px;
 	color: #046416;
 }
 section#contact .primary form label {
     display: block;
     font-family: "MerriweatherBold", Serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
     margin: 0 0 5px 0;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
@@ -681,7 +681,7 @@ section#contact .primary form input.button {
 	background: #1F8532 url(../images/btn-bg.png);
     border: 1px solid #066a19;
     font-family: "MerriweatherBold", Georgia, Serif;
-    font-size: 14px;
+    font-size: 12px;
     color: #ffffff;
     cursor: pointer;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
